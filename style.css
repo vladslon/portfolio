@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ body {
+    height: 100vh;
+    background-color: black;
+    background-image: url('backgroundportfolio.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ 
+ /* Navbar Styling */
+ .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.8);
+ }
+ 
+ .logo a {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ 
+ .links {
+    list-style: none;
+    display: flex;
+ }
+ 
+ .links li {
+    margin-right: 20px;
+ }
+ 
+ .links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+ }
+ 
+ /* About Me Section */
+ #about {
+    padding: 100px 0;
+    text-align: center;
+ }
+ 
+ #about h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+ }
+ 
+ #about img {
+    max-width: 20%;
+    border-radius: 15%;
+ }
+ 
+ /* My Work Section */
+ #work {
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+ }
+ 
+ #work h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+ }
+ 
+ .work-item {
+    margin: 40px 0;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+ }
+ 
+ .work-item img {
+    max-width: 25%;
+    border-radius: 5px;
+ }
+ 
+ .work-item p {
+    margin-top: 10px;
+ }
+ 
+ /* Contact Me Section */
+ #contact {
+    padding: 100px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+ }
+ 
+ #contact h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+ }
+ 
+ .name-text p {
+    margin-top: 10px;
+ }
+ 
+ /* Additional Styling for Article */
+ .article-div p {
+    font-size: 18px;
+    line-height: 1.5;
+ }
+ 
+ .name-text p {
+    font-size: 24px;
+ }
+ 
